@@ -1,0 +1,59 @@
+Pagina Inicial
+       - Logo Web People 
+       - Slogan Empresa ( Soluções Digitais para sua Empresa )
+       - Opções  
+               - Soluções 
+               - Quem Somos 
+               - Contato 
+
+Soluções 
+      - Botões  
+            - Desenvolvimento 
+            - Design  e Divuulgação.
+       - Texto 1 - Sobre Design 
+       - Texto 2 - Sobre Desenvolvimento 
+       - Animações   
+
+
+Tipo Desenvolvimento
+            - Escolhas as tecnologias para sua ideia. 
+            - Opções Principais 
+                      - Web 
+                            - Site Instituicional 
+                            - Site Dinamico 
+                            - Loja Virtual 
+                            - Blog
+
+                      - Mobile
+                             - Android 
+                             - IOS
+
+                      - Sitemas 
+                             - ERP
+                             - Automação de Processos. 
+                             - Otimização de Processos / Sitemas. 
+                             - Intranet 
+
+Tipo de Desing e Divulgação
+
+            - Tela onde os produto relacionados a parte de desing se encontram em modo de opção
+atravez das checkbox. 
+
+
+Quem Somos
+       - Forma a qual trabalhamos ( Diagrama de Desenvolvimento) 
+       - Texto Web People.
+       - Missão, Visão e Valores. 
+
+
+
+Contato 
+       - Email
+       - Redes Sociais
+       - Formulario ( Conte - nos a sua ideia)
+
+
+
+
+                             
+  
