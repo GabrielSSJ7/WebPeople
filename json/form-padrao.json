@@ -1,0 +1,25 @@
+{
+    "perguntas": [
+        {
+            "pergunta": "Qual o nome da sua empresa?",
+            "temResposta": false,
+            "html":"<input type='text' name='resNomeEmpresa' ng-model='resNomeEmpresa' placeholder='Nome da sua empresa' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+        }, 
+        {
+            "pergunta": "A quem são oferecidos seus serviços e ou produtos? (B&B e B&C)",
+            "temResposta": true,
+            "respostas":["B2B", "B2C"],
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>A quem são oferecidos seus serviços e ou produtos? (B2B e B2C)</p><label class='container-checkbox'>B2B<input type='checkbox' id='B2B' ng-true-value=\"'B2B'\"  ng-model='B2B' ><span class='checkmark'></span></label><label class='container-checkbox'>B2C<input id='B2C' type='checkbox' ng-true-value=\"'B2C'\"  ng-model='B2C'><span class='checkmark'></span></label><button style='margin-top: 5px' ng-click='next()' id='btn-next-2' class='btn-style-next'>Próximo</button>"
+        },
+        {
+            "pergunta": "Qual seu público alvo?",
+            "temResposta":false,
+            "html": "<h1>3</h1><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+        },
+        {
+            "pergunta": "Atualmente quais são seus concorrentes? (Não obrigatório)",
+            "temResposta":false,
+            "html": "<h1>4</h1><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Angular JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="./js/formPadraoController.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body ng-app="myApp" ng-controller="meuController">
+
+        
+
+
+		<h1 class="class-produto" >Web</h1>
+        <div class="row container-fluid div-produtos" id="div-web">
+        	<div  class="col-sm-4 item-produto" id="site_institucional" ng-click="site_institucional()">
+                <div class="item">
+                    <img src="./img/site_institucional.png" />
+                    <h2 class="desc-produto">Site institucional</h2>
+                </div>
+            </div>
+
+            <div  class="col-sm-4 item-produto" id="sistema_web">
+                <div class="item">
+                    <img src="./img/sistema_web.png" />
+                    <h2 class="desc-produto">Sistema Web</h2>
+                </div>
+            </div>
+
+            <div  class="col-sm-4 item-produto" id="ecommerce">
+                <div class="item">
+                    <img src="./img/ecommerce.png" />
+                    <h2 class="desc-produto">ecommerce</h2>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <h1 class="class-produto">Sistemas</h1>
+        <div  class="row container-fluid div-produtos" id="div-sistemas" >
+        	 <div  class="col-sm-4 item-produto" id="auto_process">
+                <div class="item">
+                    <img src="./img/auto_process.png" />
+                    <h2 class="desc-produto">Automação de Processos</h2>
+                </div>
+            </div>
+            
+            <div  class="col-sm-4 item-produto" id="optimization">
+                <div class="item">
+                    <img src="./img/optimization.png" />
+                    <h2 class="desc-produto">Otimização de softwares</h2>
+                </div>
+            </div>
+      
+        </div>
+
+        
+ 		<h1 class="class-produto">Mobile</h1>
+        <div  class="row container-fluid div-produtos" id="div-mobile">
+            <div class="col-sm-4 item-produto" id="mobile">
+				<div class="item" >
+                    <img src="./img/mobile.png"/>
+                    <h2 class="desc-produto">Aplicativos</h2>
+                </div>
+            </div>
+
+                     
+        </div>
+
+        <div class="animate-form" id="form_2" style="display: none;">
+
+        </div>
+
+        <div id="right-panel" style="display: none;" ></div>
+
+
+
+        <script>
+        </script>
+    </body>
+</html>

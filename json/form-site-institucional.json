@@ -1,0 +1,43 @@
+{
+    "perguntas": [
+        {
+            "pergunta": "Qual é o objetivo da página?",
+            "temResposta": true,
+            "respostas":["Vender", "Informar"],
+            "html":"<p class='text-form' id='aQuemSao' style='text-align: center;'>Qual é o objetivo da página?</p><label class='container-checkbox'>Vender<input type='checkbox' id='Vender' ng-true-value=\"'Vender'\"  ng-model='Vender' ><span class='checkmark'></span></label><label class='container-checkbox'>Informar<input id='Informar' type='checkbox' ng-true-value=\"'Informar'\"  ng-model='Informar'><span class='checkmark'></span></label><button style='margin-top: 5px' ng-click='nextFormProduct()' id='btn-nextFormProduct-2' class='btn-style-next'>Próximo</button>"
+        }, 
+        {
+            "pergunta": "Seu negócio oferece produtos serviços ou ambos?",
+            "temResposta": true,
+            "respostas":["Produtos", "Serviços", "Ambos"],
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>A quem são oferecidos seus serviços e ou produtos? (B2B e B2C)</p><label class='container-radio'>Produtos<input type='radio' checked='checked' name='Produtos'><span class='checkmark'></span></label>        <label class='container-radio'>Serviços<input type='radio' checked='checked' name='radio'><span class='checkmark'></span></label><label class='container-radio'>Ambos<input type='radio' checked='checked' name='radio'></label><button style='margin-top: 5px' ng-click='nextFormProduct()' id='btn-nextFormProduct-2' class='btn-style-next'>Próximo</button>"
+        },
+        {
+            "pergunta": "Qual é o carro chefe do seu negócio? Conte-nos sobre ele.",
+            "temResposta":false,
+            "html": "<p class='text-form' id='aQuemSao'>Qual é o carro chefe do seu negócio? Conte-nos sobre ele.</p><input type='text'  ng-model='inputForm' placeholder='Descreva seu carro chefe...' class='form-control' style='width: 100%;'><button style='margin-top: 5px' ng-click='nextFormProduct()' class='btn-style-next' id='btn-nextFormProduct'>Próximo</button>"
+        },
+        {
+            "pergunta": "Quais páginas você tem em mente para seu site?",
+            "temResposta": true,
+            "respostas":["Contato", "quem_somos"],
+            "html":"<p class='text-form' class='text-form' id='aQuemSao' style='text-align: center;'>Quais páginas você tem em mente para seu site?</p><label class='container-checkbox'>Contato<input type='checkbox' id='Contato' ng-true-value=\"'Contato'\"  ng-model='Contato' ><span class='checkmark'></span></label><label class='container-checkbox'>Quem somos<input id='quem_somos' type='checkbox' ng-true-value=\"'Quem somos'\"  ng-model='quem_somos'><span class='checkmark'></span></label><button style='margin-top: 5px' ng-click='nextFormProduct()' id='btn-nextFormProduct-2' class='btn-style-next'>Próximo</button>"
+        }, 
+        {
+            "pergunta": "Poderia nos apontar um site que considera um modelo de conteúdo para sua empresa?",
+            "temResposta":false,
+            "html": "<p class='text-form'  id='aQuemSao'>Poderia nos apontar um site que considera um modelo de conteúdo para sua empresa?</p><input type='text'  ng-model='inputForm' placeholder='Link para o site' class='form-control' style='width: 100%;'><button style='margin-top: 5px' ng-click='nextFormProduct()' class='btn-style-next' id='btn-nextFormProduct'>Próximo</button>"
+        },
+        {
+            "pergunta": "Você possui material para colaborar com o desenvolvimento do site? (Exemplo: texto e imagens da empresa)",
+            "temResposta":true,
+            "respostas":["Sim", "No"],
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>Você possui material para colaborar com o desenvolvimento do site? (Exemplo: texto e imagens da empresa)</p><label class='container-radio'>Sim<input type='radio' ng-model='radioBtnForm' value='Sim' checked='checked' name='Produtos'><span class='checkmark'></span></label><label class='container-radio'>Não<input type='radio' ng-model='radioBtnForm' value='Não' checked='checked' name='radio'><span class='checkmark'></span></label><button style='margin-top: 5px' ng-click='nextFormProduct()' id='btn-nextFormProduct-2' class='btn-style-next'>Próximo</button>"
+        },
+        {
+            "pergunta": "Conte-nos sua ideia com suas palavras:",
+            "temResposta":false,
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>Conte-nos com suas palavras sua ideia:</p><textarea row='5' class='form-control'></textarea><button style='margin-top: 5px' ng-click='nextFormProduct()' id='btn-nextFormProduct-2' class='btn-style-next'>Próximo</button>"
+        }
+    ]
+}

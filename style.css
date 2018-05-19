@@ -1,0 +1,353 @@
+.btn-style-next{
+    float:right;
+    border:0px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #999;
+}
+
+
+.btn-style-next:hover{
+    background: #999;
+    color: #fcfcfc;
+}
+
+.text-form{
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+.div-produtos{
+    width: 60%;
+    padding-top: 5%; 
+    margin: auto;
+}
+
+ .item-produto{
+    padding: 5px 15px;
+    cursor: pointer;
+    
+}
+
+#site_institucional{
+    animation: produtos 1s;
+}
+#sistema_web{
+    animation: produtos 1.5s;
+}
+#ecommerce{
+    animation: produtos 2.5s;
+}
+
+#auto_process{
+    animation: produtos 3s;
+}
+
+#optimization{
+    animation: produtos 4.5s;
+}
+
+#mobile{
+    animation: produtos 5s;
+}
+
+
+
+
+@-webkit-keyframes produtos {
+     0% {opacity: 0; margin-top: 15px}    
+    100% {opacity: 1; margin-top: 0px;}
+}
+@keyframes produtos {
+    0% {opacity: 0; margin-top: 15px}    
+    100% {opacity: 1; margin-top: 0px;}
+}
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.item-produto:hover {
+   box-shadow: 1px 1px 20px black inset;
+}
+
+.desc-produto{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat',sans-serif;
+    color: #666;
+}
+
+.class-produto{
+    padding: 5px 0;
+    text-align: center;
+    
+    font-family: 'Montserrat',sans-serif;
+    color: #666;
+}
+
+/* Type 1 */
+#form{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 350px;
+    border-radius: 3px;
+
+
+    -webkit-animation-name:example;
+    -webkit-animation-duration:1s;
+
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+#btn-next{
+    -webkit-animation-name: anim;
+    -webkit-animation-duration:1s;
+
+    animation-name: anim;
+    animation-duration: 1s;
+    width: 100%;
+
+}
+
+
+@-webkit-keyframes example{
+    0%{opacity: 0; left: 5%}
+    100% {opacity: 1.0; left: 0}
+}
+@keyframes example{
+    0%{opacity: 0; left: 5%}
+    100% {opacity: 1.0; left: 0}
+}
+
+
+
+@-webkit-keyframes anim{
+    0%{opacity: 0; margin-top: 5%}
+    100% {opacity: 1.0; margin-top: 1%}
+}
+@keyframes anim{
+    0%{opacity: 0; margin-top: 5%}
+    100% {opacity: 1.0; margin-top: 1%}
+}
+
+
+/* Right Panel */
+
+#right-panel{
+    width: 200px;
+    margin: 2%;
+    padding: 0.5%;
+    color: #fff;
+    background-color: #aaa;
+}
+/* == */
+
+
+/* Type 2 */
+
+#form_2{	
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 350px;
+    border-radius: 3px;
+}
+
+
+#btn-next-2{		
+    -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s ;
+    width: 30%;  		
+}
+
+#aQuemSao{
+
+    -webkit-animation:aQuemSaoOferecidos 2s ;
+    animation: aQuemSaoOferecidos 1s ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0% {width: 0%; opacity: 0}
+    50% {width: 50%; opacity: 0.5}
+    100% {width: 30%; opacity: 1}
+}
+
+@keyframes mymove {
+
+    0% {width: 10%; opacity: 0}
+
+    100% {width: 30%; opacity: 1}
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes aQuemSaoOferecidos {
+    0% {font-size: 0%; opacity: 0}
+    50% {font-size: 80%; opacity: 0.5}
+    100% {font-size: 100%; opacity: 1}
+}
+
+@keyframes aQuemSaoOferecidos {
+
+    0% {font-size: 0%; opacity: 0}
+
+    100% {font-size: 100%; opacity: 1}
+}
+/* == */
+
+
+/* CheckBox */
+.container-checkbox {
+    left: 5%;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* == */
+
+
+/* CheckBox */
+/* Customize the label (the container) */
+.container-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/* === */
