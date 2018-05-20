@@ -14,7 +14,7 @@
 
 .text-form{
     font-family: 'Montserrat', sans-serif; 
-    
+
 }
 
 .div-produtos{
@@ -309,7 +309,7 @@ img{
 }
 
 /* Create a custom radio button */
-.checkmark {
+.checkmark-radio {
   position: absolute;
   top: 0;
   left: 0;
@@ -320,29 +320,29 @@ img{
 }
 
 /* On mouse-over, add a grey background color */
-.container-radio:hover input ~ .checkmark {
+.container-radio:hover input ~ .checkmark-radio {
   background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
-.container-radio input:checked ~ .checkmark {
+.container-radio input:checked ~ .checkmark-radio {
   background-color: #2196F3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+.checkmark-radio:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
-.container-radio input:checked ~ .checkmark:after {
+.container-radio input:checked ~ .checkmark-radio:after {
   display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.container-radio .checkmark:after {
+.container-radio .checkmark-radio:after {
   top: 9px;
   left: 9px;
   width: 8px;

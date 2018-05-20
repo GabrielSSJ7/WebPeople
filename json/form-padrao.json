@@ -3,7 +3,8 @@
         {
             "pergunta": "Qual o nome da sua empresa?",
             "temResposta": false,
-            "html":"<input type='text' name='resNomeEmpresa' ng-model='resNomeEmpresa' placeholder='Nome da sua empresa' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+            "respostas":["NomeEmpresa"],
+            "html":"<input type='text' id='NomeEmpresa' name='resNomeEmpresa' ng-model='NomeEmpresa' placeholder='Nome da sua empresa' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
         }, 
         {
             "pergunta": "A quem são oferecidos seus serviços e ou produtos? (B&B e B&C)",
@@ -14,12 +15,14 @@
         {
             "pergunta": "Qual seu público alvo?",
             "temResposta":false,
-            "html": "<h1>3</h1><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+            "respostas":["PublicoAlvo"],
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>3Qual seu público alvo?</p><input type='text' id='PublicoAlvo' name='PublicoAlvo' ng-model='PublicoAlvo' placeholder='Seu público alvo (ex: adulto, infantil, empresários, mães...)' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
         },
         {
             "pergunta": "Atualmente quais são seus concorrentes? (Não obrigatório)",
             "temResposta":false,
-            "html": "<h1>4</h1><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+            "respostas":["concorrentes"],
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>Atualmente quais são seus concorrentes? (Não obrigatório)</p><input type='text' id='concorrentes' name='concorrentes' ng-model='concorrentes' placeholder='Nos indique de alguma forma (site, facebook, linkedin...)' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
         }
     ]
 }
