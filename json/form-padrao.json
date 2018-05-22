@@ -16,7 +16,7 @@
             "pergunta": "Qual seu público alvo?",
             "temResposta":false,
             "respostas":["PublicoAlvo"],
-            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>3Qual seu público alvo?</p><input type='text' id='PublicoAlvo' name='PublicoAlvo' ng-model='PublicoAlvo' placeholder='Seu público alvo (ex: adulto, infantil, empresários, mães...)' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
+            "html": "<p class='text-form' id='aQuemSao' style='text-align: center;'>Qual seu público alvo?</p><input type='text' id='PublicoAlvo' name='PublicoAlvo' ng-model='PublicoAlvo' placeholder='Seu público alvo (ex: adulto, infantil, empresários, mães...)' class='form-control'><button style='margin-top: 5px' ng-click='next()' class='btn-style-next' id='btn-next'>Próximo</button>"
         },
         {
             "pergunta": "Atualmente quais são seus concorrentes? (Não obrigatório)",

@@ -12,6 +12,18 @@
     color: #fcfcfc;
 }
 
+#btn-voltar{
+    position: absolute;
+   border:0px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #999;
+}
+
+#btn-voltar:hover{
+  background: #999;
+    color: #fcfcfc;
+}
 .text-form{
     font-family: 'Montserrat', sans-serif; 
 
